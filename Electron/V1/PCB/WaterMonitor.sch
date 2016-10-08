@@ -10010,14 +10010,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="M"/>
 <part name="D1" library="SparkFun-LED" deviceset="LED" device="1206-BOTTOM"/>
-<part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206"/>
+<part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value="1k"/>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="DGND" device=""/>
 <part name="U3" library="SparkFun-DigitalIC" deviceset="EEPROM-I2C" device="SMD" value="24LC512">
 <attribute name="FARNELL" value="1801220"/>
 </part>
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="DGND" device=""/>
-<part name="U$1" library="DS1820-SOIC" deviceset="DS1820" device="SOIC"/>
+<part name="U4" library="DS1820-SOIC" deviceset="DS1820" device="SOIC"/>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="DGND" device=""/>
 <part name="SUPPLY5" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
@@ -10117,14 +10117,18 @@ r=read/write operation
 0=write</text>
 <text x="190.5" y="167.64" size="1.27" layer="97">Battery</text>
 <text x="243.84" y="114.3" size="1.27" layer="97">Cold Temperature Sensor</text>
+<wire x1="180.34" y1="187.96" x2="271.78" y2="187.96" width="0.1524" layer="97"/>
+<wire x1="271.78" y1="124.46" x2="271.78" y2="187.96" width="0.1524" layer="97"/>
+<wire x1="180.34" y1="124.46" x2="180.34" y2="187.96" width="0.1524" layer="97"/>
+<wire x1="271.78" y1="124.46" x2="180.34" y2="124.46" width="0.1524" layer="97"/>
 </plain>
 <instances>
 <instance part="CONN1" gate="G$1" x="33.02" y="162.56"/>
 <instance part="GND1" gate="G$1" x="25.4" y="154.94"/>
 <instance part="SUPPLY2" gate="G$1" x="104.14" y="152.4"/>
 <instance part="GND2" gate="G$1" x="83.82" y="147.32" rot="R270"/>
-<instance part="H1" gate="G$1" x="251.46" y="180.34"/>
-<instance part="H2" gate="G$1" x="251.46" y="172.72"/>
+<instance part="H1" gate="G$1" x="243.84" y="180.34"/>
+<instance part="H2" gate="G$1" x="243.84" y="172.72"/>
 <instance part="SUPPLY4" gate="G$1" x="134.62" y="152.4"/>
 <instance part="U2" gate="G$1" x="116.84" y="129.54"/>
 <instance part="GND3" gate="G$1" x="157.48" y="142.24" rot="R90"/>
@@ -10142,7 +10146,7 @@ r=read/write operation
 </instance>
 <instance part="SUPPLY3" gate="G$1" x="157.48" y="38.1"/>
 <instance part="GND6" gate="G$1" x="157.48" y="25.4"/>
-<instance part="U$1" gate="G$1" x="208.28" y="58.42"/>
+<instance part="U4" gate="G$1" x="208.28" y="58.42"/>
 <instance part="GND7" gate="G$1" x="205.74" y="43.18"/>
 <instance part="SUPPLY5" gate="G$1" x="220.98" y="66.04"/>
 <instance part="SUPPLY6" gate="G$1" x="228.6" y="66.04"/>
@@ -10167,7 +10171,7 @@ r=read/write operation
 <instance part="JP3" gate="G$1" x="193.04" y="162.56" rot="MR180"/>
 <instance part="GND14" gate="G$1" x="203.2" y="154.94"/>
 <instance part="SUPPLY14" gate="G$1" x="210.82" y="165.1"/>
-<instance part="H3" gate="G$1" x="251.46" y="165.1"/>
+<instance part="H3" gate="G$1" x="243.84" y="165.1"/>
 <instance part="D3" gate="G$1" x="205.74" y="162.56"/>
 <instance part="R2" gate="G$1" x="228.6" y="53.34" rot="R90"/>
 <instance part="U1" gate="G$1" x="127" y="45.72"/>
@@ -10257,7 +10261,7 @@ r=read/write operation
 <pinref part="GND4" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="GND"/>
+<pinref part="U4" gate="G$1" pin="GND"/>
 <pinref part="GND7" gate="G$1" pin="GND"/>
 <wire x1="205.74" y1="53.34" x2="205.74" y2="45.72" width="0.1524" layer="91"/>
 </segment>
@@ -10423,7 +10427,7 @@ r=read/write operation
 <wire x1="134.62" y1="149.86" x2="134.62" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="VCC"/>
+<pinref part="U4" gate="G$1" pin="VCC"/>
 <wire x1="210.82" y1="53.34" x2="210.82" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="SUPPLY5" gate="G$1" pin="3.3V"/>
 <wire x1="210.82" y1="48.26" x2="220.98" y2="48.26" width="0.1524" layer="91"/>
@@ -10637,7 +10641,7 @@ r=read/write operation
 </net>
 <net name="DQ" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="DQ"/>
+<pinref part="U4" gate="G$1" pin="DQ"/>
 <wire x1="208.28" y1="53.34" x2="208.28" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="45.72" x2="228.6" y2="45.72" width="0.1524" layer="91"/>
 <label x="231.14" y="45.72" size="1.27" layer="95" xref="yes"/>
