@@ -11176,20 +11176,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="190.5" y1="129.54" x2="190.5" y2="73.66" width="0.1524" layer="97"/>
 <wire x1="2.54" y1="129.54" x2="2.54" y2="73.66" width="0.1524" layer="97"/>
 <text x="78.74" y="185.42" size="1.27" layer="97">Water leak sensor.</text>
-<text x="78.74" y="134.62" size="1.27" layer="97">WATER_SENSE_FAULT - should connect to GND in the external sensor.</text>
 <text x="78.74" y="139.7" size="1.27" layer="97">WATER_SENSE_1 and 2 - should connect to GND in the external sensor when water is present.</text>
-<text x="81.28" y="287.02" size="1.27" layer="97">TODO: 
-* Room temperature (and humidity?)
-
-* Don't use D13 for OSH Logo LED as its's also onboard LED.
-
-
-* Add buzzer? LED? for leak
-
-* Bigger holes needed for 3 pin JST
-
-</text>
-<text x="78.74" y="149.86" size="1.27" layer="97">TODO: Need power to sensor board. - Use fault to provide power.</text>
 <text x="15.24" y="264.16" size="1.27" layer="97">TODO: Check SDA/SCL ok with 5V display</text>
 <wire x1="193.04" y1="149.86" x2="426.72" y2="149.86" width="0.1524" layer="97"/>
 <wire x1="193.04" y1="154.94" x2="325.12" y2="154.94" width="0.1524" layer="97"/>
@@ -11931,7 +11918,7 @@ Also provides power to display I2C interface).</text>
 <label x="99.06" y="238.76" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="WATER_SENSE_FAULT" class="0">
+<net name="WATER_SENSE_POWER" class="0">
 <segment>
 <pinref part="JP3" gate="G$1" pin="4"/>
 <wire x1="88.9" y1="175.26" x2="96.52" y2="175.26" width="0.1524" layer="91"/>
