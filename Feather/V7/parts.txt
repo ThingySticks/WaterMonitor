@@ -1,0 +1,52 @@
+Partlist
+
+Exported from WaterMonitorV7.0.brd at 11/02/2019 21:43
+
+EAGLE Version 7.4.0 Copyright (c) 1988-2015 CadSoft
+
+Assembly variant: 
+
+Part     Value                           Package                     Library               Position (inch)       Orientation
+
+C1       0.1uF                           0805                        SparkFun-Passives     (2.781 0.856)         R270
+C2       0.1uF                           0805                        SparkFun-Passives     (1.5109252 0.68533465) R180
+C3       0.1uF                           0805                        SparkFun-Passives     (2.1359252 1.55610236) R0
+C6       0.1uF                           0805                        SparkFun-Passives     (2.78395669 1.70226378) R90
+C9       1.0uF                           0805                        SparkFun-Passives     (3.3015748 1.54389764) R180
+D1                                       LED-1206-BOTTOM             SparkFun-LED          (3.17992126 0.13238189) MR180
+D8       Green                           LED-1206                    SparkFun-LED          (3.54193307 0.90206299) R180
+F1       6V/100mA                        1206                        SparkFun-Fuses        (0.8015748 1.60639764) R90
+FLOW3    RJ11                            RJ11-6                      SparkFun-Connectors   (3.82677165 0.59055118) R90
+FLOW4    RJ11                            RJ11-6                      SparkFun-Connectors   (3.82677165 1.22047244) R90
+IC1      BME680                          BME680                      ThingySticks          (2.662 0.912)         R180
+J3       Flow1                           JST-HX-3-PTH-VERT           Tinamous              (2.64685039 1.78169291) R180
+J4       Flow2                           JST-HX-3-PTH-VERT           Tinamous              (3.21771654 1.77992126) R180
+J6       Temperature2                    MOLEX-1X2                   SparkFun-Connectors   (2.725 0.175)         R180
+J7       Temperature1                    MOLEX-1X2                   SparkFun-Connectors   (2.2625 0.175)        R180
+MS1      FEATHERWINGSIMPLE               FEATHERWING_BREAKOUT_SIMPLE ThingySticks          (-0.0109252 0.45639764) R0
+Q1       4.3A/20V/54m?                   SOT23-3                     SparkFun-DiscreteSemi (2.14606299 1.71417323) R270
+Q3       220mA/50V/3.5?                  SOT23-3                     SparkFun-DiscreteSemi (0.9765748 1.61889764) R0
+R1       1k5                             0805                        SparkFun-Resistors    (1.33839764 0.3964252) R270
+R2       50k                             0805                        SparkFun-Resistors    (1.15 0.725)          R90
+R3       1k                              0805                        SparkFun-Resistors    (3.309 0.726)         R180
+R4       1k                              0805                        SparkFun-Resistors    (2.934 0.839)         R270
+R5       1M                              0805                        SparkFun-Resistors    (0.9390748 1.16889764) R270
+R6       50k                             0805                        SparkFun-Resistors    (0.9375 0.725)        R90
+R7       100k                            0805                        SparkFun-Resistors    (1.4390748 1.55639764) R90
+R8       50k                             0805                        SparkFun-Resistors    (1.05 0.725)          R90
+R9       1k                              0805                        SparkFun-Resistors    (3.32135433 1.36230315) R0
+R10      100k                            0805                        SparkFun-Resistors    (1.1390748 1.55639764) R90
+R11      50k                             0805                        SparkFun-Resistors    (0.8375 0.725)        R90
+R12      1k                              0805                        SparkFun-Resistors    (1.98110236 1.4760748) R0
+R13      100k                            0805                        SparkFun-Resistors    (1.5390748 1.55639764) R90
+R14      1k                              0805                        SparkFun-Resistors    (2.70610236 1.3765748) R0
+R15      1M                              0805                        SparkFun-Resistors    (1.9851378 1.74311024) R180
+R16      100k                            0805                        SparkFun-Resistors    (1.2390748 1.55639764) R90
+R17      1k5                             0805                        SparkFun-Resistors    (3.31456693 0.96840551) R270
+R18      1k                              0805                        SparkFun-Resistors    (3.069 1.187)         R0
+R19      100k                            0805                        SparkFun-Resistors    (1.25 0.662)          R90
+R20      100k                            0805                        SparkFun-Resistors    (1.035 1.457)         R90
+R21      1k5                             0805                        SparkFun-Resistors    (2.509 0.912)         R90
+R22      1k5                             0805                        SparkFun-Resistors    (2.383 0.912)         R90
+S1       MOMENTARY-SWITCH-SPST-PTH-6.0MM TACTILE_SWITCH_PTH_6.0MM    SparkFun-Switches     (1.915 0.243)         R0
+U$2      DISPLAY0.96_INCH_DISPLAY        I2C_DISPLAY_0.96_INCH       ThingySticks          (3.185 0.378)         R90
