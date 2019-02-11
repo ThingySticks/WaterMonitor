@@ -8368,6 +8368,7 @@ For connection to WIZNet Serial to Ethernet.</text>
 <wire x1="370.84" y1="91.44" x2="370.84" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="363.22" y1="91.44" x2="358.14" y2="91.44" width="0.1524" layer="91"/>
 <label x="358.14" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
+<junction x="363.22" y="91.44"/>
 </segment>
 </net>
 <net name="N$11" class="0">
