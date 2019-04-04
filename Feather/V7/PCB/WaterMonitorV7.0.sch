@@ -7744,7 +7744,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <hole x="2" y="25.8" drill="2.2"/>
 <hole x="25.3" y="25.8" drill="2.2"/>
 <hole x="2" y="2" drill="2.2"/>
-<hole x="25.3" y="2.25" drill="2.2"/>
+<hole x="25.3" y="2" drill="2.2"/>
 <wire x1="20.7" y1="0" x2="6.6" y2="0" width="0.127" layer="21"/>
 <wire x1="6.6" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
 <wire x1="0.5" y1="23.5" x2="26.5" y2="23.5" width="0.127" layer="51"/>
@@ -7787,6 +7787,44 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.01" layer="39"/>
 <text x="-1.5" y="1.7" size="0.6096" layer="25" font="vector">&gt;NAME</text>
 <text x="-1.5" y="-2.3" size="0.6096" layer="27" font="vector">&gt;VALUE</text>
+</package>
+<package name="FEATHERWIND_PADS_AND_PLACE">
+<wire x1="2.54" y1="0" x2="48.26" y2="0" width="0" layer="21"/>
+<wire x1="48.26" y1="0" x2="50.8" y2="2.54" width="0" layer="21" curve="90"/>
+<wire x1="50.8" y1="2.54" x2="50.8" y2="20.32" width="0" layer="21"/>
+<wire x1="50.8" y1="20.32" x2="48.26" y2="22.86" width="0" layer="21" curve="90"/>
+<wire x1="48.26" y1="22.86" x2="2.54" y2="22.86" width="0" layer="21"/>
+<wire x1="2.54" y1="22.86" x2="0" y2="20.32" width="0" layer="21" curve="90"/>
+<wire x1="0" y1="20.32" x2="0" y2="2.54" width="0" layer="21"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="0" width="0" layer="21" curve="90"/>
+<pad name="28" x="16.51" y="21.59" drill="1" diameter="1.778"/>
+<pad name="27" x="19.05" y="21.59" drill="1" diameter="1.778"/>
+<pad name="26" x="21.59" y="21.59" drill="1" diameter="1.778"/>
+<pad name="25" x="24.13" y="21.59" drill="1" diameter="1.778"/>
+<pad name="24" x="26.67" y="21.59" drill="1" diameter="1.778"/>
+<pad name="23" x="29.21" y="21.59" drill="1" diameter="1.778"/>
+<pad name="22" x="31.75" y="21.59" drill="1" diameter="1.778"/>
+<pad name="21" x="34.29" y="21.59" drill="1" diameter="1.778"/>
+<pad name="20" x="36.83" y="21.59" drill="1" diameter="1.778"/>
+<pad name="19" x="39.37" y="21.59" drill="1" diameter="1.778"/>
+<pad name="18" x="41.91" y="21.59" drill="1" diameter="1.778"/>
+<pad name="17" x="44.45" y="21.59" drill="1" diameter="1.778"/>
+<pad name="5" x="16.51" y="1.27" drill="1" diameter="1.778"/>
+<pad name="6" x="19.05" y="1.27" drill="1" diameter="1.778"/>
+<pad name="7" x="21.59" y="1.27" drill="1" diameter="1.778"/>
+<pad name="8" x="24.13" y="1.27" drill="1" diameter="1.778"/>
+<pad name="9" x="26.67" y="1.27" drill="1" diameter="1.778"/>
+<pad name="10" x="29.21" y="1.27" drill="1" diameter="1.778"/>
+<pad name="11" x="31.75" y="1.27" drill="1" diameter="1.778"/>
+<pad name="12" x="34.29" y="1.27" drill="1" diameter="1.778"/>
+<pad name="13" x="36.83" y="1.27" drill="1" diameter="1.778"/>
+<pad name="14" x="39.37" y="1.27" drill="1" diameter="1.778"/>
+<pad name="15" x="41.91" y="1.27" drill="1" diameter="1.778"/>
+<pad name="16" x="44.45" y="1.27" drill="1" diameter="1.778"/>
+<pad name="4" x="13.97" y="1.27" drill="1" diameter="1.778"/>
+<pad name="3" x="11.43" y="1.27" drill="1" diameter="1.778"/>
+<pad name="2" x="8.89" y="1.27" drill="1" diameter="1.778"/>
+<pad name="1" x="6.35" y="1.27" drill="1" diameter="1.778"/>
 </package>
 </packages>
 <symbols>
@@ -8023,6 +8061,41 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </technologies>
 </device>
 <device name="SIMPLE" package="FEATHERWING_BREAKOUT_SIMPLE">
+<connects>
+<connect gate="G$1" pin="!RESET" pad="1"/>
+<connect gate="G$1" pin="3V" pad="2"/>
+<connect gate="G$1" pin="AREF" pad="3"/>
+<connect gate="G$1" pin="EN" pad="27"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="GPIO10" pad="22"/>
+<connect gate="G$1" pin="GPIO11" pad="23"/>
+<connect gate="G$1" pin="GPIO12" pad="24"/>
+<connect gate="G$1" pin="GPIO13" pad="25"/>
+<connect gate="G$1" pin="GPIO5" pad="19"/>
+<connect gate="G$1" pin="GPIO6" pad="20"/>
+<connect gate="G$1" pin="GPIO9" pad="21"/>
+<connect gate="G$1" pin="GPIOA0" pad="5"/>
+<connect gate="G$1" pin="GPIOA1" pad="6"/>
+<connect gate="G$1" pin="GPIOA2" pad="7"/>
+<connect gate="G$1" pin="GPIOA3" pad="8"/>
+<connect gate="G$1" pin="GPIOA4" pad="9"/>
+<connect gate="G$1" pin="GPIOA5" pad="10"/>
+<connect gate="G$1" pin="GPIOMISO" pad="13"/>
+<connect gate="G$1" pin="GPIOMOSI" pad="12"/>
+<connect gate="G$1" pin="GPIORX" pad="14"/>
+<connect gate="G$1" pin="GPIOSCK" pad="11"/>
+<connect gate="G$1" pin="GPIOSCL" pad="18"/>
+<connect gate="G$1" pin="GPIOSDA" pad="17"/>
+<connect gate="G$1" pin="GPIOTX" pad="15"/>
+<connect gate="G$1" pin="USB" pad="26"/>
+<connect gate="G$1" pin="VBAT" pad="28"/>
+<connect gate="G$1" pin="WAKE/NC" pad="16"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="PADS_AND_PLACE_ONLY" package="FEATHERWIND_PADS_AND_PLACE">
 <connects>
 <connect gate="G$1" pin="!RESET" pad="1"/>
 <connect gate="G$1" pin="3V" pad="2"/>
@@ -8972,10 +9045,14 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <part name="R10" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value="100k"/>
 <part name="FRAME2" library="SparkFun-Aesthetics" deviceset="FRAME-LEDGER" device=""/>
 <part name="R4" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value="1k"/>
-<part name="Q1" library="SparkFun-DiscreteSemi" deviceset="MOSFET_PCH" device="-IRLML2244" value="4.3A/20V/54mΩ"/>
+<part name="Q1" library="SparkFun-DiscreteSemi" deviceset="MOSFET_PCH" device="-IRLML2244" value="IRLML2244TRPBF">
+<attribute name="FARNELL" value="2468051"/>
+</part>
 <part name="SUPPLY10" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="R15" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value="1M"/>
-<part name="Q3" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCH" device="-BSS138" value="220mA/50V/3.5Ω"/>
+<part name="Q3" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCH" device="-BSS138" value="BSS138PW">
+<attribute name="FARNELL" value="1907611"/>
+</part>
 <part name="GND19" library="SparkFun-Aesthetics" deviceset="DGND" device=""/>
 <part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value="1M"/>
 <part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value="50k"/>
@@ -8994,12 +9071,16 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="DGND" device=""/>
 <part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value="100k"/>
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="DGND" device=""/>
-<part name="J3" library="Tinamous" deviceset="CONN_03" device="JST-HX-PTH-VERT" value="Flow1"/>
+<part name="J3" library="Tinamous" deviceset="CONN_03" device="JST-HX-PTH-VERT" value="Flow1">
+<attribute name="FARNELL" value="1516227"/>
+</part>
 <part name="R12" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value="1k"/>
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="DGND" device=""/>
 <part name="R13" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value="100k"/>
 <part name="GND16" library="SparkFun-Aesthetics" deviceset="DGND" device=""/>
-<part name="J4" library="Tinamous" deviceset="CONN_03" device="JST-HX-PTH-VERT" value="Flow2"/>
+<part name="J4" library="Tinamous" deviceset="CONN_03" device="JST-HX-PTH-VERT" value="Flow2">
+<attribute name="FARNELL" value="1516227"/>
+</part>
 <part name="R14" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value="1k"/>
 <part name="GND17" library="SparkFun-Aesthetics" deviceset="DGND" device=""/>
 <part name="C9" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1.0uF"/>
@@ -9134,13 +9215,17 @@ Also provides power to display I2C interface).</text>
 <attribute name="NAME" x="24.13" y="54.8386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="24.13" y="50.038" size="1.778" layer="96"/>
 </instance>
-<instance part="Q1" gate="G$1" x="363.22" y="246.38" rot="R180"/>
+<instance part="Q1" gate="G$1" x="363.22" y="246.38" rot="R180">
+<attribute name="FARNELL" x="363.22" y="246.38" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
 <instance part="SUPPLY10" gate="G$1" x="360.68" y="266.7"/>
 <instance part="R15" gate="G$1" x="370.84" y="256.54" smashed="yes" rot="R90">
 <attribute name="NAME" x="369.3414" y="255.27" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="374.142" y="255.27" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="Q3" gate="NMOS" x="381" y="243.84" rot="MR0"/>
+<instance part="Q3" gate="NMOS" x="381" y="243.84" rot="MR0">
+<attribute name="FARNELL" x="381" y="243.84" size="1.778" layer="96" rot="MR0" display="off"/>
+</instance>
 <instance part="GND19" gate="G$1" x="378.46" y="228.6"/>
 <instance part="R5" gate="G$1" x="388.62" y="233.68" smashed="yes" rot="R180">
 <attribute name="NAME" x="389.89" y="232.1814" size="1.778" layer="95" rot="R180"/>
@@ -9177,6 +9262,7 @@ Also provides power to display I2C interface).</text>
 <instance part="J3" gate="J$1" x="231.14" y="241.3" smashed="yes" rot="R180">
 <attribute name="VALUE" x="227.076" y="247.142" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="233.68" y="235.712" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="FARNELL" x="231.14" y="241.3" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="R12" gate="G$1" x="213.36" y="238.76" smashed="yes">
 <attribute name="NAME" x="212.09" y="240.2586" size="1.778" layer="95"/>
@@ -9191,6 +9277,7 @@ Also provides power to display I2C interface).</text>
 <instance part="J4" gate="J$1" x="287.02" y="241.3" smashed="yes" rot="R180">
 <attribute name="VALUE" x="282.956" y="247.142" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="289.56" y="235.712" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="FARNELL" x="287.02" y="241.3" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="R14" gate="G$1" x="269.24" y="238.76" smashed="yes">
 <attribute name="NAME" x="267.97" y="240.2586" size="1.778" layer="95"/>
@@ -9512,9 +9599,9 @@ Also provides power to display I2C interface).</text>
 <pinref part="R1" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="MS1" gate="G$1" pin="GPIOMOSI"/>
-<wire x1="104.14" y1="223.52" x2="99.06" y2="223.52" width="0.1524" layer="91"/>
-<label x="99.06" y="223.52" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="MS1" gate="G$1" pin="GPIOTX"/>
+<wire x1="104.14" y1="215.9" x2="99.06" y2="215.9" width="0.1524" layer="91"/>
+<label x="99.06" y="215.9" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$21" class="0">
@@ -9534,9 +9621,9 @@ Also provides power to display I2C interface).</text>
 <junction x="20.32" y="53.34"/>
 </segment>
 <segment>
-<pinref part="MS1" gate="G$1" pin="GPIO11"/>
-<wire x1="147.32" y1="228.6" x2="152.4" y2="228.6" width="0.1524" layer="91"/>
-<label x="152.4" y="228.6" size="1.27" layer="95" xref="yes"/>
+<pinref part="MS1" gate="G$1" pin="GPIO10"/>
+<wire x1="147.32" y1="226.06" x2="152.4" y2="226.06" width="0.1524" layer="91"/>
+<label x="152.4" y="226.06" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -9777,9 +9864,9 @@ Also provides power to display I2C interface).</text>
 <junction x="208.28" y="238.76"/>
 </segment>
 <segment>
-<pinref part="MS1" gate="G$1" pin="GPIO6"/>
-<wire x1="147.32" y1="220.98" x2="152.4" y2="220.98" width="0.1524" layer="91"/>
-<label x="152.4" y="220.98" size="1.27" layer="95" xref="yes"/>
+<pinref part="MS1" gate="G$1" pin="GPIO5"/>
+<wire x1="147.32" y1="218.44" x2="152.4" y2="218.44" width="0.1524" layer="91"/>
+<label x="152.4" y="218.44" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="FLOW_2" class="0">
@@ -9792,9 +9879,9 @@ Also provides power to display I2C interface).</text>
 <junction x="264.16" y="238.76"/>
 </segment>
 <segment>
-<pinref part="MS1" gate="G$1" pin="GPIO5"/>
-<wire x1="147.32" y1="218.44" x2="152.4" y2="218.44" width="0.1524" layer="91"/>
-<label x="152.4" y="218.44" size="1.27" layer="95" xref="yes"/>
+<pinref part="MS1" gate="G$1" pin="GPIO6"/>
+<wire x1="147.32" y1="220.98" x2="152.4" y2="220.98" width="0.1524" layer="91"/>
+<label x="152.4" y="220.98" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="FLOW_4" class="0">
@@ -9807,9 +9894,9 @@ Also provides power to display I2C interface).</text>
 <junction x="193.04" y="53.34"/>
 </segment>
 <segment>
-<pinref part="MS1" gate="G$1" pin="GPIO10"/>
-<wire x1="147.32" y1="226.06" x2="152.4" y2="226.06" width="0.1524" layer="91"/>
-<label x="152.4" y="226.06" size="1.27" layer="95" xref="yes"/>
+<pinref part="MS1" gate="G$1" pin="GPIO11"/>
+<wire x1="147.32" y1="228.6" x2="152.4" y2="228.6" width="0.1524" layer="91"/>
+<label x="152.4" y="228.6" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">
